@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#welcome {
+	color: purple;
+	font-size:14pt;
+	text-align:center;
+	font-style:italic;
+	font-family: Consolas, serif;
+}
+#end_text {
+	text-align:center;
+	font-size:11px;
+}
+
+.sticker {
+	max-height:300px;
+	max-width:300px;
+	display:inline;
+	text-align:center;
+}
+#image_frame {
+	text-align:center;
+}
+ul li {
+	list-style-type:none;
+	text-align:center;
+}
