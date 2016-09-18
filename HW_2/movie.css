@@ -1,0 +1,194 @@
+
+body {
+	background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000);
+	margin: 0px;
+	padding: 0px;
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+p {
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+#banner {
+	background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000);
+	background-repeat: repeat-x;
+	background-size: auto 50px;
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#content {
+	margin:auto;
+	border-color: gray;
+	border-width: 4px;
+	border-style: solid;
+	padding: 0;
+	width: 800px;
+	overflow: hidden;
+	position: relative;
+}
+
+#content_left {
+	margin: 0px;
+	border-width: 0px;
+	padding: 0px;
+	width: 550px;
+	float:right; 
+}
+
+#content_left_head {
+	background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000);
+	background-repeat: repeat-x;
+}
+
+#content_left_head #rating {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	vertical-align:top;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+#content_left_head #reviews {
+	font-size: 8pt;
+	color: white;
+	vertical-align:180%;
+}
+
+#content_left .commit {
+	/*margin: 11px;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#content_left .viewer{
+	margin-bottom: 3em;
+	padding: 0px;
+	border-width: 0px;
+}
+
+#content_left .commit {
+	font-size: 8pt;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E1D697;
+	border-color: gray;
+	border-width: 2px;
+	border-style: solid;
+	clear: left;
+}
+
+#content_left .commit p  {
+	margin-top: 0px;
+	margin-left: 0px;
+	overflow: hidden;
+}
+q {
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0px;
+}
+/*
+.icon {
+	margin-bottom:x 5px; 
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+*/
+.icon {
+	margin-bottom: 5px;
+	clear :left;
+}
+img.icon {
+	margin-right: 5px;
+	float: left;
+}
+
+#leftcomment {	
+	float: left;
+	width: 258.5px;
+	margin: 11px;
+	padding: 0px;
+}
+
+#rightcomment {
+	float: left;
+	width: 258.5px;
+	margin-right: 11px;
+	margin-top: 11px;
+	padding: 0px;
+}
+/*
+#content_left .viewer {
+	overflow: hidden;
+	float: left;
+}
+*/
+#content_right {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+}
+/*
+#leftcomment .icon {
+	float: left;
+}
+#leftcomment p {
+	overflow: hidden;
+}
+*/
+
+.publication {
+	font-style: italic;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dl {
+	padding: 10px;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+dd {
+	margin-bottom: 1em;
+}
+
+#bar {
+	margin-top: 0%;
+}
+
+#bar p{
+	background-color: #A2B964;
+	position: absolute;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	bottom: 0%;
+	width: 800px;
+}
+
+#valid{
+	position: fixed;
+	float: right;
+	bottom: 0px;
+	right: 0px;
+}
