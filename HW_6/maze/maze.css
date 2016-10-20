@@ -1,0 +1,144 @@
+#intro, #maze, #tips {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#intro, #start, #end, #result{
+	text-align: center;
+}
+#result {
+	height: 40px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#maze {
+	height: 300px;
+	width: 500px;
+	border: 1px solid black;
+}
+
+.wall {
+	background:white;
+}
+.path{
+	background: yellow;
+}
+.wall, .path, #start, #end{
+	float:left;
+}
+
+.wall {
+	background: purple;
+}
+#wall1 {
+	height: 50px;
+	width: 150px;
+}
+#wall2{
+	height: 49px;
+	width:200px;
+	border-bottom:  1px solid black;
+}
+#wall3 {
+	height: 50px;
+	width: 150px;
+}
+
+#wall4{
+	height: 50px;
+	width: 149px;
+	border-right:  1px solid black;
+}
+#wall5{
+	height: 50px;
+	width: 149px;
+	border-left:  1px solid black;
+}
+#wall6{
+	height: 99px;
+	width: 149px;
+	border-right: 1px solid black;
+	border-bottom:  1px solid black;
+}
+#wall7{
+	height: 99px;
+	width: 98px;
+	border-left:  1px solid black;
+	border-right:  1px solid black;
+	border-top:  1px solid black;
+}
+#wall8{
+	width: 149px;
+	height: 99px;
+	border-left:  1px solid black;
+	border-bottom:  1px solid black;
+}
+#wall9{
+	width: 98px;
+	height: 50px;
+	border-left:  1px solid black;
+	border-right:  1px solid black;
+}
+#wall10{
+	width: 200px;
+	height: 49px;
+	border-top:  1px solid black;
+
+}
+#wall11{
+	width: 100px;
+	height: 49px;
+
+}
+#wall12{
+	width: 200px;
+	height: 49px;
+	border-top:  1px solid black;
+	
+}
+#path1{
+	width: 200px;
+	height: 50px;
+}
+#path2{
+	width: 50px;
+	height: 100px;
+}
+#path3{
+	width: 50px;
+	height: 100px;
+}
+#path4 {
+	width: 158px;
+	height: 50px;
+}
+#path5 {
+	width: 158px;
+	height: 50px;
+}
+#start {
+	border: 1px solid white;
+	background: green;
+	padding-top: 5px;
+	height: 40px;
+	width: 40px;
+}
+#end {
+	border: 1px solid white;
+	background: blue;
+	padding-top: 5px;
+	height: 40px;
+	width: 40px;
+}
+#tips{
+	width: 580px;
+}
+#example {
+	background: purple;	
+	margin-left: 237px;
+	margin-right: 237px;
+	height: 26px;
+	width: 104px;
+	border: 1px solid black;
+}
