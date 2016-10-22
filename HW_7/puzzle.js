@@ -103,7 +103,7 @@ function finished() {
 	if (begin === true) {
 		for (var row = 0; row < 4; row++) {
 			for (var col = 0; col < 4; col++) {
-				if (row * 4 + col + 1 === puzzleArr[row][col]) return false;
+				if (row * 4 + col + 1 !== puzzleArr[row][col]) return false;
 			}
 		}
 		begin = false;
