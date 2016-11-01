@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>mole</title>
+	<script type="text/javascript" src="js/lodash.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/mole.js"></script>
+	<link rel="stylesheet" type="text/css" href="mole.css">
+</head>
+<body>
+	<div id="intro">
+	<h1>whac-a-mole</h1>
+	<p>Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</p>
+	</div>
+	<div id="control">
+		<button id="start">Start Game|Stop Game</button>
+		<div id="timeBox">Time:<input id="time" disabled="disabled" value="0"></div>
+		<input id="result" value = "Game Over" disabled="disabled">
+		<div id="scoreBox">Score:<input id="score" disabled="disabled" value="0"></input></div>
+	</div>
+	<div id="map">
+	</div>
+	<div id="instruc">
+	<p>Instructions:</p>
+	<p>&nbsp&nbsp1. Click on the radio buttons(moles) as they are selected ramdomly by the computer.<br>
+	&nbsp&nbsp2. 1 point per hit, minus 1 point per miss.</p>
+	</div>
+	<!--liveReload-->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

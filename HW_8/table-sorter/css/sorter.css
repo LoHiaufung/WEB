@@ -1,0 +1,27 @@
+tr, td {
+	border: 1px solid #DCDEDB;
+
+}
+
+.alternate {
+	background-color: #DCDEDB;
+}
+
+.unclick {
+	color: white;
+	background: #04186D;
+}
+.descend {
+	color:white;
+	background: #A6AFC0;
+	background-image:url('../icon/descend.png');
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
+.ascend {
+	color:white;
+	background: #A6AFC0;
+	background-image:url('../icon/ascend.png');
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
