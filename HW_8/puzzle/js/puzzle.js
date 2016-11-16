@@ -53,10 +53,10 @@ function clickSquare(event) {
 		if (blankRow > -1 && blankCol > -1) {
 			var tmp_blank = $("#"+coordinateToId(blankRow, blankCol));
 			var tmp_square = $("#"+coordinateToId(row, col));
-			var tmp_blankID = tmp_blank.id;
-			var tmp_squareID = tmp_square.id;
-			tmp_blank.id = tmp_squareID;
-			tmp_square.id = tmp_blankID;
+			var tmp_blankID = tmp_blank.attr('id');
+			var tmp_squareID = tmp_square.attr('id');
+			tmp_blank.attr('id', tmp_squareID);
+			tmp_square.attr('id', tmp_blankID);
 
 			var tmp = puzzleArr[row][col];
 			puzzleArr[row][col] = puzzleArr[blankRow][blankCol];
